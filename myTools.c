@@ -45,7 +45,8 @@ void menu()
 	int lineX = 0;
     int lineY = 0;
 
-	while(choice != 'd') {
+	while(choice != 'd') 
+	{
         system("cls");
         drawSBox(lineX,lineY,lineX+25,lineY+15);
 
@@ -98,9 +99,6 @@ void menu()
 				printf("Invalid input\n");
 		}
 		gotoxy(0,25);
-
-		// TODO: proceed to next loop by pressing enter key
-
 
 		printf("Press Enter to continue...");
 		if(getchar() == '\n');
